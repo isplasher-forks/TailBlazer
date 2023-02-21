@@ -32,8 +32,8 @@ public sealed class SystemSetterJob: IDisposable
                 var isDark = userTheme == UserTheme.Dark;
 
                 ModifyTheme(theme => theme.SetBaseTheme(isDark ? MaterialDesignThemes.Wpf.Theme.Dark : MaterialDesignThemes.Wpf.Theme.Light));
-                ApplyPrimaryColor(isDark ? System.Windows.Media.Color.FromRgb(90,90,90) : System.Windows.Media.Color.FromRgb(0,170,0));
-                ApplySecondaryColor(isDark ? System.Windows.Media.Colors.Blue : System.Windows.Media.Colors.Blue);
+                ApplyPrimaryColor(isDark ? System.Windows.Media.Color.FromRgb(90,90,90) : System.Windows.Media.Color.FromRgb(70,120,160));
+                ApplySecondaryColor(isDark ? System.Windows.Media.Colors.LightGray : System.Windows.Media.Colors.LightGreen);
             });
 
         var frameRate = ratingService.Metrics

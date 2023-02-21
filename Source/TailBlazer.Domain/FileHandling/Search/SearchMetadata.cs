@@ -7,12 +7,10 @@ namespace TailBlazer.Domain.FileHandling.Search;
 
 public class SearchMetadata : IEquatable<SearchMetadata>
 {
-    const RegexOptions caseInsensitiveOptions = RegexOptions.IgnorePatternWhitespace
-                                                   | RegexOptions.Compiled
+    const RegexOptions caseInsensitiveOptions = RegexOptions.Compiled
                                                    | RegexOptions.IgnoreCase;
 
-    const RegexOptions caseSensitiveOptions = RegexOptions.IgnorePatternWhitespace
-                                              | RegexOptions.Compiled;
+    const RegexOptions caseSensitiveOptions = RegexOptions.Compiled;
 
     public int Position { get;  }
     public string SearchText { get; }

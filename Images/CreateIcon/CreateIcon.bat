@@ -3,7 +3,7 @@
 
 Set inkscape="C:\Program Files\Inkscape\bin\inkscape.com"
 Set magick="C:\Program Files\ImageMagick-7.1.0-Q16-HDRI\magick.exe"
-Set fileName="CometBlue"
+Set fileName="CometBlueGreen"
 
 %inkscape% -w 256 -h 256 %fileName%.svg -o %fileName%256.png
 %inkscape% -w 128 -h 128 %fileName%.svg -o %fileName%128.png

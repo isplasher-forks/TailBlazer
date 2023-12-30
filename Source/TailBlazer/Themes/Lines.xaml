@@ -109,7 +109,7 @@
                    MinWidth="24" 
                    TextAlignment="Right"
                    VerticalAlignment="Center"
-                   Margin="8,0,0,0"
+                   Margin="16,0,0,0"
                    Text="{Binding LineNumber.Value}"
                    Visibility="{Binding Path=DataContext.GeneralOptionBindings.ShowLineNumbers.Value, ElementName=Control, Converter={StaticResource BooleanToVisibilityConverter}}"/>
 
